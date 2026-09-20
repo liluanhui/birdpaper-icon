@@ -5,7 +5,7 @@ export const nav = [
   },
   {
     text: "Sponsor",
-    link: "/en/doc/support",
+    link: "/en/donate",
   },
   {
     text: "UI Library",

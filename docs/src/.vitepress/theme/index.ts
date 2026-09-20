@@ -10,6 +10,7 @@ import BirdpaperIcon from "birdpaper-icon";
 import "birdpaper-icon/dist/index.css";
 
 import ApiBlock from "../components/api-block";
+import DonatePage from "../components/donate-page.vue";
 
 import "uno.css";
 import "../../style/index.scss";
@@ -21,7 +22,8 @@ export default {
   enhanceApp(ctx: EnhanceAppContext) {
     ctx.app.use(BirdpaperUI);
     ctx.app.use(BirdpaperIcon);
-    
+
     ctx.app.component("api-block", ApiBlock);
+    ctx.app.component("donate-page", DonatePage);
   },
 };
